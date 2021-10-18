@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDom from 'react-dom';
+import './index.scss';
 
 function Root() {
     return (
-        <div>hi</div>
+        <div className="root">
+            <canvas className="canvas" />
+        </div>
     );
 }
 

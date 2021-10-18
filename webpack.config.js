@@ -39,7 +39,7 @@ module.exports = {
                 exclude: [/node_modules/, path.resolve('src/Wasm')],
             },
             {
-                test: /\.css$/,
+                test: /\.scss$/,
                 loader: 'style-loader!css-loader!sass-loader'
             },
             {
